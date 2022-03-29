@@ -4,9 +4,9 @@ module.exports = {
     mysql: {
         host: 'localhost',
         port: '3306',
-        user: 'your mysql username',
-        password: 'your mysql password',
-        database: 'your mysql database name',
+        user: 'root',
+        password: '123456',
+        database: 'blog',
         multipleStatements: true,
         waitForConnections: true,
         charset: "UTF8MB4_UNICODE_CI"
